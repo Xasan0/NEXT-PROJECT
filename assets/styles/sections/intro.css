@@ -1,4 +1,25 @@
-#intro{
+#intro {
     height: 500px;
     padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro .carousel img {
+    border-radius: 20px;
+    width: 1180px;
+}
+
+#intro .carousel .swiper button i:nth-child(1) {
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    background-color: var(--bg-gradient-white);
+}
+#intro .carousel .swiper i:nth-child(2) {
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    background-color: var(--bg-gradient-dark);
 }

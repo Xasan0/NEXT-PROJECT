@@ -1,0 +1,49 @@
+#categories {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+#categories .wrapper__title {
+    font-family: "Nuckle", sans-serif;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    text-align: left;
+
+}
+
+#categories .wrapper__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#categories .wrapper__cards .wrapper__cards-item {
+    height: 180px;
+    width: 200px;
+    border-radius: 10px;
+    gap: 25px;
+    background-color: #fff;
+}
+
+#categories .wrapper__cards .wrapper__cards-item h6 {
+    font-family: "Nuckle", sans-serif;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+#categories .wrapper__line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+}
